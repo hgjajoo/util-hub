@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <div class="container">
+        <div id="countdown">00:00:00</div>
+        <div class="countdownTools">
+            <label for="timerInput">Set Timer (in seconds): </label>
+            <input type="number" id="timerInput" min="1" value="10">
+            <button id="startButton">Start Countdown</button>
+        </div>
+    </div>
+
+    <audio id="beep" src="https://www.youtube.com/watch?v=R8WB_-Pfd-I" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
