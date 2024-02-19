@@ -14,9 +14,9 @@ body {
 }
 
 .password-box {
-    width: 80vw; /* Adjusted for better responsiveness */
-    max-width: 400px; /* Added max-width to prevent excessive width on larger screens */
-    margin: 20px auto; /* Center the box horizontally */
+    width: 80vw;
+    max-width: 400px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #333;
     border: 2px solid #555;
@@ -29,7 +29,7 @@ body {
 
 #password {
     margin: 0;
-    font-size: 3vw; /* Responsive font size based on screen width */
+    font-size: 3vw;
     word-break: break-all;
 }
 
@@ -58,13 +58,13 @@ input[type="range"] {
 
 .checkbox-container {
     display: flex;
-    flex-wrap: wrap; /* Allow checkboxes to wrap to the next line on smaller screens */
-    justify-content: center; /* Center the checkboxes horizontally */
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 10px;
 }
 
 .checkbox-container label {
-    margin: 5px; /* Adjusted margin for better spacing between checkboxes */
+    margin: 5px;
 }
 
 #generatePasswordButton {
